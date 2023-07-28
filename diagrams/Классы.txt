@@ -1,0 +1,24 @@
+@startuml
+
+class Animals
+class Pets
+class PackAnimals
+class Cats
+class Dogs
+class Horses
+class Hamsters
+class Camels
+class Donkeys
+
+Animals <|-- Pets
+Animals <|-- PackAnimals
+
+Pets <|-- Cats
+Pets <|-- Dogs
+Pets <|-- Hamsters
+
+PackAnimals <|-- Horses
+PackAnimals <|-- Camels
+PackAnimals <|-- Donkeys
+
+@enduml
